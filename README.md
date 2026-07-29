@@ -37,7 +37,7 @@ I am a 2026 Computer Science & Data Science graduate passionate about building p
 
 ---
 
-## Featured Projects
+## Core Engineering Implementations
 
 ### [E-Commerce Fraud Analytics & Retrieval Pipeline](#)
 *A high-performance backend and hybrid retrieval system designed to detect anomalies and serve enterprise data.*
