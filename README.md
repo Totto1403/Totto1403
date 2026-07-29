@@ -1,4 +1,4 @@
-# Hi there, I'm Bharanee! 👋
+# Hi there, I'm Bharanee!
 ### Software Engineer | CSE Graduate @ VIT Chennai | Data Science @ IIT Madras
 
 I am a 2026 Computer Science & Data Science graduate passionate about building production-grade backend infrastructure, AI-powered analytical applications, and secure data pipelines. I specialize in designing systems that bridge complex machine learning models with scalable, user-centric APIs.
@@ -74,5 +74,3 @@ I'm actively seeking opportunities in **Backend Software Engineering**, **Produc
 ---
 
 > *"I enjoy building software that is not only intelligent, but also scalable, secure, and engineered for real-world use."*
-> 
-> **[Connect on LinkedIn]([#](https://www.linkedin.com/in/bharanee-b-a387902b5/)) • [Send an Email](mailto:bharanee1403@gmail.com)**
