@@ -39,6 +39,11 @@ I build production-grade **Agentic AI systems**, high-concurrency **backend infr
 - Built a decoupled REST API with JWT-secured Role-Based Access Control (RBAC) powering distinct Admin, Company, and Student workflows across the campus recruitment lifecycle.
 - Integrated Redis caching and Celery background asynchronous task queues to cut database load on high-traffic endpoints; shipped a responsive Vue.js 3 / Vite SPA with PWA support.
 
+### 📊 Applied Machine Learning & Competitive Modeling — Kaggle Competitions
+*Tech Stack: Python, PyTorch, Hugging Face Transformers, XGBoost, LightGBM, CatBoost, Scikit-learn*
+- Benchmarked Linear Regression, Random Forest, XGBoost, LightGBM, and CatBoost for tabular price prediction, implementing feature engineering, cross-validation, and hyperparameter tuning to minimize validation error.
+- Built an end-to-end PyTorch semantic segmentation pipeline (U-Net/DeepLab-style, Dice loss, IoU metric) for pixel-level classification and fine-tuned Hugging Face transformer models optimizing top-3 ranking via MAP@3.
+
 ---
 
 ## 🛠️ Technical Stack & Tooling
@@ -58,4 +63,3 @@ I build production-grade **Agentic AI systems**, high-concurrency **backend infr
 - **B.Tech in Computer Science and Engineering** — *Vellore Institute of Technology (VIT), Chennai* (2022 – 2026) &nbsp;|&nbsp; **CGPA: 7.93**
 - **B.S. in Data Science and Applications** — *Indian Institute of Technology (IIT), Madras* (2022 – Present) &nbsp;|&nbsp; **CGPA: 6.49**
   - *Currently at Diploma level*
-
