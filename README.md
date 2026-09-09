@@ -1,7 +1,11 @@
-# Hi there, I'm Bharanee!
-### Software Engineer | CSE Graduate @ VIT Chennai | Data Science @ IIT Madras
+# Hi there, I'm Bharanee! 👋
 
-I am a 2026 Computer Science & Data Science graduate passionate about building production-grade backend infrastructure, AI-powered analytical applications, and secure data pipelines. I specialize in designing systems that bridge complex machine learning models with scalable, user-centric APIs.
+### GenAI & Agentic Systems | Backend Engineering | Applied Machine Learning
+**B.Tech Computer Science @ VIT Chennai** &nbsp;|&nbsp; **B.S. Data Science & Applications @ IIT Madras**
+
+---
+
+I build production-grade **Agentic AI systems**, high-concurrency **backend infrastructure**, and **applied machine learning pipelines**. Comfortable owning complex systems end-to-end — from database and retrieval architecture to low-latency deployable APIs and agent loops.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bharanee-b-a387902b5/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Totto1403)
@@ -9,68 +13,49 @@ I am a 2026 Computer Science & Data Science graduate passionate about building p
 
 ---
 
-## What I Do
-- **Backend Engineering:** Designing resilient, high-concurrency APIs using **Python, FastAPI, and Flask**, integrated with **SQL** and **Redis** for performant caching and database management.
-- **AI & Applied ML:** Developing and fine-tuning computer vision and NLP models (**YOLOv8, OpenCV, Scikit-Learn**) and building enterprise AI workflows (evaluations, guardrails, Next Best Action systems).
-- **Systems Architecture:** Engineering robust hybrid search/retrieval pipelines, handling custom tokenization, dense ranking, tie-breaking logic, and secure path canonicalization to prevent malicious API probes.
-- **DevOps & Infrastructure:** Containerizing microservices with **Docker**, deploying cloud-ready pipelines, and writing structured, maintainable code with strict API routing and error handling.
+## 🚀 Featured Projects
+
+### 🧠 [Enterprise Multi-Agent Intelligence Engine](https://github.com/Totto1403/multiagent-mcp-rag)
+*Tech Stack: Python, LangGraph, FastMCP (Model Context Protocol), Qdrant, BM25, FastAPI, Pydantic v2, SQLite, Ragas*
+- Architected an asynchronous multi-agent enterprise platform orchestrating Supervisor routing, self-correcting NL-to-SQL generation, and citation-grounded Hybrid RAG over financial transaction databases and credit policy documents.
+- Built a two-stage retrieval pipeline fusing dense vector search (Qdrant 1536d) and sparse keyword retrieval (BM25 Okapi) via Reciprocal Rank Fusion (RRF, $k=60$) and Cross-Encoder reranking (100% Context Precision).
+- Decoupled tool services via FastMCP (Stdio/SSE) with AST-level SQL validation and streamed live token/thought traces via FastAPI SSE backed by Pydantic guardrails (117ms median latency).
+
+### ⚡ [MicroAgent: Zero-Framework Single-Agent ReAct Engine](https://github.com/Totto1403/microagent-from-scratch)
+*Tech Stack: Python 3.10+, ReAct Loop, Pydantic v2, OpenAI API, Rich, Pytest*
+- Built a transparent, zero-framework autonomous AI agent from scratch in pure Python to master agent internals without third-party framework abstractions.
+- Engineered an AST-inspected `@tool` decorator that dynamically transforms native Python function signatures, type annotations, and docstrings into OpenAPI/JSON schemas.
+- Implemented an adaptive self-healing execution loop that traps runtime exceptions (e.g. syntax errors) into diagnostic observations for automated LLM self-correction.
+- Added sliding-window context pruning, token budget estimation, and Human-in-the-Loop (HITL) approval gates.
+
+### 🚗 Driver Risk Assessment System (DRAS) — Final-Year Capstone
+*Tech Stack: Python, PyTorch, OpenCV, YOLOv8, ResNet-34, Scikit-learn | Team of 3*
+- Engineered an edge-deployable multimodal pipeline fusing facial-expression recognition (ResNet-34), adaptive eye-aspect-ratio fatigue detection, head-pose estimation, and YOLOv8-based phone distraction detection into a single real-time driver risk score.
+- Designed a late-fusion scoring model (70:30 visual-behavioral to affective weighting) across 4 perception streams, achieving **93.17% accuracy on the NTHU-DDD benchmark** (outperforming the published 90.48% baseline).
+- Built continuous baseline-calibration logic to eliminate false positives from fixed-threshold fatigue detection for real-time edge inference.
+
+### 🏢 [Placement Portal Application](https://github.com/Totto1403/placement-portal)
+*Tech Stack: Python, Flask, Vue.js 3, Redis, Celery, JWT, SQLAlchemy*
+- Built a decoupled REST API with JWT-secured Role-Based Access Control (RBAC) powering distinct Admin, Company, and Student workflows across the campus recruitment lifecycle.
+- Integrated Redis caching and Celery background asynchronous task queues to cut database load on high-traffic endpoints; shipped a responsive Vue.js 3 / Vite SPA with PWA support.
 
 ---
 
-## Education & Academic Foundations
-- **B.Tech in Computer Science Engineering** — *Vellore Institute of Technology (VIT), Chennai* (2022 – 2026) | **GPA: 7.93/10**
-- **B.S. in Data Science and Applications** — *Indian Institute of Technology (IIT), Madras* (2022 – Present) | **GPA: 6.49/10**
-  - *Certifications:* Diploma in Programming, Advanced Certificate in Programming and Application Development, Foundational Level in Programming and Data Science.
+## 🛠️ Technical Stack & Tooling
 
----
-
-## Technical Stack
-
-| Category | Technologies & Tools |
+| Domain | Technologies & Libraries |
 | :--- | :--- |
-| **Languages** | Python, C/C++, Java, SQL, HTML/CSS |
-| **Backend & APIs** | FastAPI, Flask, RESTful APIs, Secure API Routing & Guardrails |
-| **AI, ML & Data** | Scikit-Learn, Pandas, YOLOv8, OpenCV, LLMs, Hybrid Retrieval Pipelines |
-| **Databases & Caching** | SQL (PostgreSQL/MySQL), Redis |
-| **DevOps & Architecture** | Docker, Git/GitHub, Agile Development, Linux/Unix |
-| **Core Competencies** | Data Structures & Algorithms (DSA), OOP, System Design, Product Thinking |
+| **GenAI & Agentic Systems** | LangGraph, Model Context Protocol (MCP / FastMCP), ReAct Loop from Scratch, Hybrid RAG (Qdrant, BM25, RRF), Ragas, Rerankers (Cross-Encoder) |
+| **Backend & Distributed** | FastAPI, Flask, REST APIs, Server-Sent Events (SSE), Pydantic v2, SQLAlchemy, Redis, Celery, JWT & RBAC |
+| **Machine Learning & CV** | PyTorch, Hugging Face Transformers, YOLOv8, OpenCV, Scikit-learn, XGBoost, LightGBM, CatBoost, Pandas, NumPy |
+| **Languages & Core CS** | Python, C/C++, Java, SQL, Data Structures & Algorithms, OOP, Database Management Systems |
+| **DevOps & Developer Tools** | Git/GitHub, Docker, Linux, Postman, Pytest, Markdown |
 
 ---
 
-## Core Engineering Implementations
+## 🎓 Education
 
-### [E-Commerce Fraud Analytics & Retrieval Pipeline](#)
-*A high-performance backend and hybrid retrieval system designed to detect anomalies and serve enterprise data.*
-- **Tech Stack:** Python, FastAPI, Scikit-Learn, Redis, Docker, SQL
-- Engineered a hybrid retrieval pipeline combining custom tokenization and dense ranking with optimized tie-breaking logic for rapid data querying.
-- Implemented robust API guardrails using secure path canonicalization and parsing to neutralize malicious probes and eliminate `404` routing exceptions.
-- Designed a production-style backend serving enterprise-scale analytical queries, utilizing **Redis** caching to reduce repetitive query latency and optimize high-concurrency throughput.
-- Containerized microservices via **Docker** for reproducible deployment and scalability.
+- **B.Tech in Computer Science and Engineering** — *Vellore Institute of Technology (VIT), Chennai* (2022 – 2026) &nbsp;|&nbsp; **CGPA: 7.93**
+- **B.S. in Data Science and Applications** — *Indian Institute of Technology (IIT), Madras* (2022 – Present) &nbsp;|&nbsp; **CGPA: 6.49**
+  - *Currently at Diploma level*
 
-### [Real-Time Sign Language to Speech Translator](#)
-*An accessible AI-powered computer vision system that translates American Sign Language (ASL) gestures into real-time audio and text.*
-- **Tech Stack:** Python, YOLOv8, OpenCV, `pyttsx3`
-- Fine-tuned **YOLOv8** on dynamic ASL datasets, optimizing **OpenCV** frame-capture pipelines to achieve high-accuracy real-time recognition with minimal inference latency.
-- Built an end-to-end processing pipeline using `pyttsx3` for instant auditory feedback, enhancing communication accessibility for speech-impaired users.
-- Focused on accessibility, responsiveness, and deployment-ready architecture.
-
-### [Automated Library Management & Workflow System](#)
-*A full-stack, responsive web application replacing manual cataloging with automated database operations.*
-- **Tech Stack:** Python, Flask, SQL, Bootstrap
-- Designed a scalable relational database schema in **SQL** supporting concurrent book tracking, issuing, and user requests with minimal transactional overhead.
-- Implemented an intuitive, responsive frontend using **Bootstrap** and streamlined backend workflows with **Flask**, significantly reducing manual processing errors.
-
----
-
-## Currently Exploring
-- **Enterprise & Agentic AI:** Multi-Agent Workflows, Agentic AI Systems, Enterprise LLM Evaluation & Guardrails.
-- **Cloud-Native Infrastructure:** Kubernetes, Distributed Caching, Production AI Infrastructure.
-
----
-
-## Looking For
-I'm actively seeking opportunities in **Backend Software Engineering**, **Product Engineering**, **AI Engineering**, and **Data Platform Engineering** where I can build reliable software, solve challenging engineering problems, and contribute to products used at scale.
-
----
-
-> *"I enjoy building software that is not only intelligent, but also scalable, secure, and engineered for real-world use."*
