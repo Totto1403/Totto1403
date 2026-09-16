@@ -55,7 +55,7 @@ Software engineer and researcher specializing in production-grade **Agentic AI s
 - Implemented a composite Study Optimizer Score (SOS) weighting mood (0.45), posture (0.25), focus (0.15), and vigilance (0.15), complete with a 3-tier hierarchical alert system and automated "Take a Break" meta-alerts.
 - Validated through empirical user trials, demonstrating an 83.3% reduction in posture alerts and a 57.1% decrease in distraction events during monitored study sessions.
 
-### [Placement Portal Application](https://github.com/Totto1403/placement-portal)
+### [Placement Portal Application](https://github.com/Totto1403/placement_portal_app_v2_22f2000805)
 *Tech Stack: Python, Flask Blueprints, Vue.js 3, Redis, Celery, JWT, SQLAlchemy, SQLite*
 - Engineered a decoupled recruitment portal with JWT-authenticated Role-Based Access Control (RBAC) supporting distinct workflows for Institute Admins, Recruiting Companies, and Students.
 - Integrated Redis caching and asynchronous Celery background workers to handle high-latency jobs (such as candidate CSV report exports) and prevent bottlenecking on high-traffic job boards.
