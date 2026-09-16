@@ -41,7 +41,7 @@ Software engineer and researcher specializing in production-grade **Agentic AI s
 - Integrated sliding-window context pruning with token estimation, sandboxed Python REPL and AST calculator tools, interactive Human-in-the-Loop (HITL) approval gates, and a comprehensive offline test suite powered by `MockLLMClient`.
 
 ### Driver Risk Assessment System (DRAS) - Final-Year Capstone
-*Tech Stack: Python, PyTorch, OpenCV, YOLOv8, ResNet-34, Scikit-learn | Team of 3*
+*Tech Stack: Python, PyTorch, OpenCV, YOLOv8, ResNet-34, Scikit-learn*
 - Engineered an edge-deployable multimodal safety pipeline concurrently monitoring 4 perception channels: physical fatigue, affective state, postural deviation, and visual-manual distraction into a single continuous risk score.
 - Integrated continuous Exponentially Weighted Moving Average (EWMA) baseline calibration for Eye Aspect Ratio (EAR) thresholds, eliminating false positives caused by static cutoffs without requiring manual user setup.
 - Fine-tuned a ResNet-34 classifier on FER2013 using Focal Loss ($\gamma = 2.0$) and cosine annealing to achieve 70.24% accuracy on unseen test data, incorporating a 10-frame temporal majority vote to suppress facial jitter.
@@ -67,11 +67,11 @@ Software engineer and researcher specializing in production-grade **Agentic AI s
 
 Practical implementations across competitive data science assignments, national programming practice exams, and Kaggle benchmarks:
 
-- **Heavy Equipment Selling Price Prediction (IITM MLP Project)**: Engineered tabular regression pipelines on high-cardinality multi-modal industrial equipment records. Benchmarked Linear Regression, Random Forest, XGBoost, LightGBM, and CatBoost, optimizing hyperparameters and cross-validation against the Root Mean Squared Logarithmic Error (RMSLE) metric.
-- **Hardware Parts Semantic Segmentation (IITM DLGenAI NPPE1)**: Built an end-to-end PyTorch semantic segmentation pipeline (U-Net and DeepLab architectures) to segment and classify six cluttered hardware components (hex nuts, washers, bolts, bearings, springs, o-rings) across 2,000 training and 500 test images. Optimized using Dice coefficient loss and column-major Run-Length Encoding (RLE).
-- **Smart MCQ Solver Challenge (IITM DLGenAI)**: Developed deep learning question-answering systems to predict and rank top-3 probable answers for multi-choice prompts, optimizing models against Mean Average Precision at 3 (MAP@3).
-- **ECG Heartbeat Arrhythmia Classification (IITM NPPE2)**: Implemented 1D time-series classification models to categorize individual hospital ECG signals into four clinical arrhythmia categories, maximizing Macro F1-Score across imbalanced heartbeat distributions.
-- **Customer Churn and Ticket Price Benchmarks (IITM MLP)**: Built supervised classification pipelines predicting customer exit status evaluated on F1-Score, regression models predicting flight ticket pricing evaluated on R2-Score, and mushroom edibility classification on categorical data.
+- **Heavy Equipment Selling Price Prediction**: Engineered tabular regression pipelines on high-cardinality multi-modal industrial equipment records. Benchmarked Linear Regression, Random Forest, XGBoost, LightGBM, and CatBoost, optimizing hyperparameters and cross-validation against the Root Mean Squared Logarithmic Error (RMSLE) metric.
+- **Hardware Parts Semantic Segmentation**: Built an end-to-end PyTorch semantic segmentation pipeline (U-Net and DeepLab architectures) to segment and classify six cluttered hardware components (hex nuts, washers, bolts, bearings, springs, o-rings) across 2,000 training and 500 test images. Optimized using Dice coefficient loss and column-major Run-Length Encoding (RLE).
+- **Smart MCQ Solver Challenge**: Developed deep learning question-answering systems to predict and rank top-3 probable answers for multi-choice prompts, optimizing models against Mean Average Precision at 3 (MAP@3).
+- **ECG Heartbeat Arrhythmia Classification**: Implemented 1D time-series classification models to categorize individual hospital ECG signals into four clinical arrhythmia categories, maximizing Macro F1-Score across imbalanced heartbeat distributions.
+- **Customer Churn and Ticket Price Benchmarks**: Built supervised classification pipelines predicting customer exit status evaluated on F1-Score, regression models predicting flight ticket pricing evaluated on R2-Score, and mushroom edibility classification on categorical data.
 
 ---
 
