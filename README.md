@@ -3,7 +3,7 @@
 ### GenAI and Agentic Systems | Computer Vision and Multimodal Systems | Backend Engineering
 **B.Tech Computer Science @ VIT Chennai** | **B.S. Data Science and Applications @ IIT Madras**
 
-[LinkedIn](https://www.linkedin.com/in/bharanee-b-a387902b5/) | [GitHub](https://github.com/Totto1403) | [Email](mailto:bharanee1403@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/bharanee-b-a387902b5/) | [GitHub](https://github.com/Totto1403) | bharanee1403@gmail.com
 
 ---
 
