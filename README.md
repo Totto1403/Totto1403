@@ -83,4 +83,4 @@ Practical implementations across competitive data science assignments, national 
 
 - **Bachelor of Science (B.S.) in Data Science and Applications**
   *Indian Institute of Technology (IIT), Madras* | 2022 - Present
-  - Currently at Diploma level | CGPA: 6.49
+  - Currently at Degree level | CGPA: 6.39
